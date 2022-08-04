@@ -1,0 +1,47 @@
+#------------------------------------------
+# Vampire input file for benchmarking
+#------------------------------------------
+#    CoCl_full_Exp
+#------------------------------------------
+# System Dimensions:
+#------------------------------------------
+#{25.100000,25.200000,25.100000}
+dimensions:system-size-x = 25.100000 !A
+dimensions:system-size-y = 25.200000 !A
+dimensions:system-size-z = 25.100000 !A
+            
+#------------------------------------------
+# Material Files:
+#------------------------------------------
+material:file=CoCl_full_Exp.mat
+material:unit-cell-file=CoCl_full_Exp.ucf
+
+
+#------------------------------------------
+# Simulation attributes:
+#------------------------------------------
+sim:minimum-temperature=0
+sim:maximum-temperature=300
+sim:temperature-increment=2
+sim:time-steps-increment=4
+sim:equilibration-time-steps=500000
+sim:loop-time-steps=1000000
+
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:applied-field-strength = 1 
+sim:program=curie-temperature
+sim:integrator=monte-carlo
+#------------------------------------------
+# data output
+#------------------------------------------
+output:temperature
+output:magnetisation-length
+output:mean-magnetisation-length
+output:mean-susceptibility
+config:atoms
+#screen:temperature
+#screen:mean-magnetisation-length
+#screen:mean-susceptibility
+    
