@@ -1,2 +1,2 @@
 # Vampire_Modifications
-!./xyz2vampire_blocks.py
+!xyz2vampire_blocks.py
