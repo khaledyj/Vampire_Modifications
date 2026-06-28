@@ -1,2 +1,2 @@
 # Vampire Modifications
-xyz2vampire_blocks.py is the code discriped in the paper to modify the generation process in vampire to allow simulate of discrete clusters using Vampire with relative ease.
+The `xyz2vampire_blocks.py` script is described in the paper as a tool for modifying the VAMPIRE input-generation process, enabling discrete clusters to be simulated in VAMPIRE with relative ease.
